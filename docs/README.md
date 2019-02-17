@@ -11,10 +11,10 @@ heroImageStyle: {
 actionText: go on →
 actionLink: /techonology/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: interest
+  details: 爱好广泛,运动比较喜欢跑步和篮球，物理喜欢宇宙，歌曲喜欢民谣,动漫喜欢异世界，韩剧喜欢颜控，日剧喜欢颜艺，烹饪喜欢豆瓣，谈话喜欢瞎扯淡（偷笑。
+- title: technology
+  details: 工作是web前端技术，主要涉及图形，http,手势操作，虽然日常是业务搬砖和aip调用。但是领域涉及很多知识.最感兴趣人工智能，目前发展停留在统计学。要实现炭基变成硅基转变人工智能不可或缺
+- title: goal
+  details: 空闲时,阅读不通领域以及自己感兴趣的书以及信息，总结这些知识。能给后辈一些启发，给前辈一些交流
 ---
