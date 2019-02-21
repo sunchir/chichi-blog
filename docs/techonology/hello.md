@@ -1,13 +1,18 @@
 ---
-title: 【vue】跨域解决方案之proxyTable  
+title: 好用vue2.0 插件收集  
 date: 2017-12-28 23:39:45
 categories: frontEnd
+tags:
+- vue
+- vueplugin
 ---
-# 仅仅测试一下
+# vuePlugin
 
-## 还不错的样子
+## 日常生活类别
+
+[汽车车牌](https://liaoyinglong.github.io/plate-number-input/)
 
 
-# 测试二
+## 测试二
 
 
