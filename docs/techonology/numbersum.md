@@ -1,11 +1,12 @@
 ---
 title: 趣味算法加法js实现 
 date: 2019-04-04 11:58:00
-categories: frontEnd
+categories: techonology
 tags:
 - js
 - algorithm
 ---
+
 # 加法实现
 
 ## 背景
@@ -65,7 +66,7 @@ tags:
 ```
 好了这里的代码就可以整理为
 
-```
+```js
 
 /**
  * @param {number} a
@@ -97,7 +98,7 @@ var getSum = function(a, b) {
 先吧a - b 转化为 a + -b 
 
 
-```
+```js
 
 /**
  * @param {number} a

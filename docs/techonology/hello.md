@@ -1,7 +1,7 @@
 ---
 title: 好用vue2.0 插件收集  
 date: 2017-12-28 23:39:45
-categories: frontEnd
+categories: techonology
 tags:
 - vue
 - vueplugin
