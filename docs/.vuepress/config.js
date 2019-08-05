@@ -7,7 +7,7 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   themeConfig: {
-    author: 'chi-chi',
+    author: 'CHI-CHI',
     nav: [
       { text: '生活之旅', link: '/tags/', icon: 'reco-category' },
       { text: '技术之途', link: '/techonology/', icon: 'reco-up' },

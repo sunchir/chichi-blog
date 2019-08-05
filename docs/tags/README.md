@@ -1,6 +1,7 @@
 ---
 isTags: true
-sidebar: true
+sidebar: false
+isComment: false
 ---
 
 ## 生活小tips

@@ -1,13 +1,10 @@
 ---
-title: typescript vue 1
+title: vue + typescript 初探
 date: 2019-07-10 11:58:00
-categories: techonology
 tags:
   - vue
   - ts
 ---
-
-# vue + typescript 初探
 
 ## 背景
 
@@ -52,11 +49,11 @@ vue3.0 更新在即，在学习部分 typescript 之后结合 vue 来搭建一�
 
 首先手动选择特性，然后依次选择下面的选项。
 
-![第一步选择插件](./acess/typescriptvue1/vue-ts-1-create-1.png)
+![第一步选择插件](./access/typescriptvue1/vue-ts-1-create-1.png)
 
 使用插件那种配置
 
-![第二步配置应用](./acess/typescriptvue1/vue-typescript-1-create-2.png)
+![第二步配置应用](./access/typescriptvue1/vue-typescript-1-create-2.png)
 
 启动项目
 
@@ -69,8 +66,16 @@ npm run start
 
 ```
 
-![第一步选择插件](./acess/typescriptvue1/vue-typscript-finish-1.png)
+![第一步选择插件](./access/typescriptvue1/vue-typscript-finish-1.png)
+
+然后添加 vuex 的装饰器
+
+```shell
+
+yarn add vuex-module-decorators
+
+```
 
 总结
 
-这里使用了，一个测试端到端的测试工具，来实现前端页面的测试，问题就是会让整个项目下载非常慢，不是墙的问题，最好用流量开热点试试，反复 yarn or npm install 然后merge项目就可以完成了。
+这里使用了，一个测试端到端的测试工具，来实现前端页面的测试，问题就是会让整个项目下载非常慢，不是墙的问题，最好用流量开热点试试，反复 yarn or npm install 然后 merge 项目就可以完成了。
