@@ -2,6 +2,7 @@
 title: vue + typescript 初探
 date: 2019-07-10 11:58:00
 tags:
+  - js
   - vue
   - ts
 ---
