@@ -2,7 +2,7 @@
 title: vue + typescript 初探
 date: 2019-07-10 11:58:00
 tags:
-  - js
+  - frontend
   - vue
   - ts
 ---
@@ -68,14 +68,6 @@ npm run start
 ```
 
 ![第一步选择插件](./access/typescriptvue1/vue-typscript-finish-1.png)
-
-然后添加 vuex 的装饰器
-
-```shell
-
-yarn add vuex-module-decorators
-
-```
 
 总结
 

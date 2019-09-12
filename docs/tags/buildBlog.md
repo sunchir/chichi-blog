@@ -2,7 +2,7 @@
 title: blog 搭建
 date: 2019-08-15 11:58:00
 tags:
-  - js
+  - frontend
   - blog
   - vuepress
 ---
@@ -15,37 +15,38 @@ tags:
 
 ### 代码配置
 
-1.  我使用的 vuepresss，第一个对于 vue 比较熟悉，第二个就是 vue 的敢放文档挺好用的，所以使用这个来搭建。
+1. 我使用的 vuepresss，第一个对于 vue 比较熟悉，第二个就是 vue 的敢放文档挺好用的，所以使用这个来搭建。
 
-2.  由于使用原本的 vuepress 页面可能少些配置不满足美观以及需要的功能所以使用了一个主题来美化系统 vuepress-theme-reco。
+2. 由于使用原本的 vuepress 页面可能少些配置不满足美观以及需要的功能所以使用了一个主题来美化系统 vuepress-theme-reco。
 
-3.  由于我使用的老版本现在新版本已经更新
+3. 由于我使用的老版本现在新版本已经更新
 
     一、打开 vscode 安装 markdownlint  
     二、在 vscode 中 contrl + ` 然后使用按照下面的步骤进行输入命令
-    ``` # create
-    npx vuepress-theme-reco-cli init my-blog # or
-    npm install -g
-    reco-cli init my-blog
+         ```  
+         # create
+         npx vuepress-theme-reco-cli init my-blog # or
+         npm install -g
+         reco-cli init my-blog
 
-        # install
-        cd my-blog
-        npm install
+            # install
+            cd my-blog
+            npm install
 
-        # run
-        npm run dev
+            # run
+            npm run dev
 
-        # build
-        npm run build
+            # build
+            npm run build
         ```
 
-4.  最简单按照上面执行后就可以看见页面了  
+4. 最简单按照上面执行后就可以看见页面了  
     ![首页配置](./access/blogbuild/home.png)
     上面的图就是配置首页展示的地方
 
-5.  后面的配置就是实现页面配置的地方
+5. 后面的配置就是实现页面配置的地方
     ![头部配置](./access/blogbuild/tag.png)
-    ```js
+    ```js 
     module.exports = {
       title: "驰驰的blog",
       description:

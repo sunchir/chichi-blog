@@ -2,7 +2,7 @@
 title: 趣味算法加法js实现 
 date: 2019-04-04 11:58:00
 tags:
-- js
+- frontend
 - algorithm
 ---
 
