@@ -85,3 +85,8 @@ webassembly是简单的机器模型和广泛的执行规范，他被设计的更
   (export "fac" (func $fac)))
 ```
 
+如果好奇怎么搞使用wat2wasm demo 和下面的例子
+
+## 线性储存
+
+webAssembly 拥有简单的储存模型，一个wasm模型拥有的单线程存储，本质上是字节平面的数组。
