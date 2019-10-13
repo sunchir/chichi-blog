@@ -89,4 +89,62 @@ webassembly是简单的机器模型和广泛的执行规范，他被设计的更
 
 ## 线性储存
 
-webAssembly 拥有简单的储存模型，一个wasm模型拥有的单线程存储，本质上是字节平面的数组。
+webAssembly 拥有简单的储存模型，一个wasm模型拥有的单线程存储，本质上是字节平面的数组。这个内存可以增加为64倍数的大小，不能再缩减了。
+
+## webAssembly 不仅仅可以运行在web
+
+尽管目前它引起了javascript和web社区的普遍关注，但是wasm并没有对自己的运行环境设置限制。因此，可以推测wasm将会成为各种运行环境的一种可执行文件格式。当然在今天，wasm联系最为 密切的还是javascript，不管是在web端还是node服务端。
+
+## 配置
+
+这个章节描述怎么样使用rust编译出webassemble程序以及配合javascript的整合。
+
+## rust工具链
+
+你需要标准的rust工具链，包括rustup，rusttc以及cargo。
+
+[这里介绍rust工具链](https://www.rust-lang.org/tools/install)
+
+rust与webassembly的使用经验是基于稳定的版本，所以我们可以不需要使用一些实验性的功能。但是需要1.3或者更高的rust版本。
+
+## wasm-pack
+
+wasm-pack 是一个集构建发布rust webassembly产物的一站式商城。
+
+[wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
+
+## cargo-generate
+
+cargo-generae 帮助你快速使用git上面的模板构建一个rust项目。
+
+安装cargo-generate的命令
+
+```bash
+
+cargo install cargo-generate
+
+```
+
+切换源：找到当前用户目录下 /Users/baoyachi/.cargo/ 的.cargo 文件夹，进入.cargo 当前目录，在当前目下创建 config 文件 ，打开 config 文件，编写以下内容：
+
+```text
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+replace-with = 'ustc'
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+```
+
+## npm
+
+npm 是一个javascript包管理工具。我们将会使用它打包和开发服务。在最后的教程里面我们将会编译.wasm给npm登记
+
+[获取npm](https://www.npmjs.com/get-npm)
+
+如果你已经安装npm，确保已经使用下面的命令
+
+```bash
+
+npm install npm@latest -g
+
+```
