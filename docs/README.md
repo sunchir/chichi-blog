@@ -1,15 +1,19 @@
 ---
 home: true
-heroImage: /head.jpg
+heroImage: /hero.png
 heroImageStyle: {
-  maxHeight: '200px',
+  maxWidth: '500px',
+  width: '100%',
   display: block,
-  margin: '2rem auto 1.5rem',
-  borderRadius: '50%',
-  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+  margin: '10rem auto 2rem',
+  borderRadius: '1rem',
 }
-actionText: go on →
-actionLink: /tags/
+bgImageStyle: {
+  height: '600px'
+}
+isShowTitleInHome: false
+actionText:  go on →
+actionLink: /views/other/guide
 features:
 - title: interest
   details: 爱好广泛,运动比较喜欢跑步和篮球，物理喜欢宇宙，歌曲喜欢民谣,动漫喜欢异世界，韩剧喜欢颜控，日剧喜欢颜艺，烹饪喜欢豆瓣，谈话喜欢瞎扯淡（偷笑。
