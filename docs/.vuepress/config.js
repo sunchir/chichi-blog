@@ -1,6 +1,6 @@
 module.exports = {
   "title": "驰驰的blog",
-  "description": 'I am just a trespasser , only want to remain a trail of footprints for you',
+  "description": 'I am just a bird of passage  , only want to a relatively short stay',
   "dest": "public",
   "head": [
     [
