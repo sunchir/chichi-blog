@@ -1,6 +1,6 @@
 module.exports = {
   "title": "驰驰的blog",
-  "description": 'I am just a bird of passage  , only want to a relatively short stay',
+  "description": 'I am just a bird of passage , only want a relatively short stay',
   "dest": "public",
   "head": [
     [
@@ -103,7 +103,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
-    "author": "gxc",
+    "author": "chichi",
     "authorAvatar": "/avatar.png",
     "record": "chichi",
     "startYear": "2018"
